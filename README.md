@@ -14,7 +14,7 @@ But HKDF doesn’t give you a way to use a master public key for addresses gener
 
 There is [an article](https://cardanolaunch.com/assets/Ed25519_BIP.pdf) written by Dmitry Khovratovich and Jason Law
 Describing the way how to use the BIP32 derivation scheme within ed25519.
-They created [the implementation](https://github.com/vbmithr/ocaml-bip32-ed25519) of their algorithm in Ocaml.
+Someone created [the implementation](https://github.com/vbmithr/ocaml-bip32-ed25519) of their algorithm in Ocaml.
 
 The other brave guy [ported this to Python](https://github.com/superdarkbit/nano-bip32-ed25519/tree/master/python_equivalents) (with custom Blake2b hash-function):
 It looks not very "pythonic" but I didn't find any different alternative.
