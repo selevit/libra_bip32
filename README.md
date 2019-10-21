@@ -22,7 +22,7 @@ I've vendored it and changed the hash function to SHA512 to make it compatible w
 
 ## Usage (tested on python 3.7)
 
-```python3
+```bash
 pip install pipenv
 git clone https://github.com/selevit/libra_bip32
 cd libra_bip32
